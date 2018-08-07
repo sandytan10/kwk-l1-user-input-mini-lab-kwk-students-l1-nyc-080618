@@ -24,4 +24,4 @@ puts "You want to stay at #{stay} and you would like #{eat} and spend your night
 
 end 
 
-  ask
+  Ask
