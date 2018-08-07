@@ -1,6 +1,7 @@
 # Code your prompts here!
 
 # First, puts out a string asking where the tourist would like to stay.
+def Ask
 puts "Let's plan your trip! Where would you like to #{stay}?"
 
 # Then, set a variable called stay to get the user's input. Make sure to capitilize that input.
@@ -20,3 +21,7 @@ nights = gets.chomp.capitalize
 # Lastly, puts it all back by interpolating these values in a string.
 
 puts "You want to stay at #{stay} and you would like #{eat} and spend your nights at #{nights}!"
+
+end 
+
+  ask
